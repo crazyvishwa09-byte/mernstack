@@ -1,0 +1,70 @@
+.box{
+    height:1964px;
+    width: 760px;
+    border: 2px solid black;
+    margin: auto;
+}
+.img1{
+   padding: 5px;
+}
+.head{
+    color: white;
+    background-color: #00674b;
+    padding: 5px;
+}
+.para{
+    padding: 5px;
+}
+.head1{
+    color: white;
+    background-color: orangered;
+    padding: 5px;
+}
+.list{
+    margin-left: 20px;
+}
+.list1{
+    margin-left: 80px;
+}
+.head2{
+    color: white;
+    background-color: #00674b;
+    padding: 5px;
+}
+.para1{
+    text-align: center;
+    color: black;
+    background-color: gray;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: small;
+}
+.span1{
+    text-decoration: underline;
+    color: blue;
+}
+.para2{
+    font-size: small;
+    text-align: center;
+}
+.para3{
+    font-size: small;
+    padding-left: 5px;
+    padding-right: 5px;
+    text-align: justify;
+}
+.para4{
+    color: red;
+    text-align: center;
+    font-size: small;
+}
+.para5{
+    text-align: center;
+    margin-top: 30px;
+}
+.span2{
+    text-decoration: underline;
+    color: blue;
+}

@@ -1,0 +1,44 @@
+.inner-container{
+    height: 377px;
+    width: 263px;
+    border: 1px;
+    border-radius:8px;
+    box-shadow: 0 10px 10px rgba(0,0,0,0.2);
+}
+.tiger{
+    color: gray;
+    margin-left: 20px;
+}
+h3{
+    margin-left: 20px;
+}
+.break{
+    color: gray;
+     margin-left: 20px;
+}
+.by{
+    color: gray;
+     margin-left: 20px;
+}
+.robo{
+    color: red;
+}
+.main-container{
+    display: flex;
+    gap: 30px;
+    margin-top: 70px;
+    margin-left: 30px;
+}
+.made{
+    text-align: center;
+}
+.robos{
+    color: brown;
+}
+.img{
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+.mar{
+    margin-top: -10px;
+}

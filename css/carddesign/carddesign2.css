@@ -1,0 +1,57 @@
+.inner-container{
+    height: 324px;
+    width: 190px;
+    border: 1px none;
+    border-radius: 10px;
+    background-color: rgb(204, 246, 246);
+    padding: 8px;
+}
+.one,.two,.three{
+    height: 140px;
+    width: 174px;
+    border-radius: 10px;
+    padding: 10px;
+}
+div{
+    display: flex;
+    gap: 20px;
+    margin-top: 50px;
+    margin-left: 300px;
+    margin-top: 150px;
+}
+.learn-btn{
+    width: 91px;
+    height: 30px;
+    padding: 5px;
+    border-radius: 60px;
+    font-size: 9px;
+    margin-left: 16px;
+    background-color: black;
+    color: white;
+    margin-left: 45px;
+}
+.center{
+    background-color: white;
+    transform: scale(1)rotate(3deg) translateY(-15px);
+}
+p{
+    text-align: center;
+    font-size: 12px;
+}
+body{
+    background-color: rgb(6, 6, 6);
+}
+.pink{
+    background-color:rgb(223, 42, 157);
+    border:1px none;
+}
+.vish{
+    color: black;
+    text-align: center;
+    margin-top: 1px;
+}
+.rek{
+    color: rgb(223, 42, 157);
+    text-align: center;
+    margin-top: 1px;
+}

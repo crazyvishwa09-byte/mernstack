@@ -1,0 +1,9 @@
+.child>p{
+    color: yellow;
+}
+.siblings+p{
+    color: yellow;
+}
+.general~p{
+    color: yellow;
+}

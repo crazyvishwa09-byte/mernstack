@@ -1,0 +1,36 @@
+.login-btn,.sign-btn{
+    background-color: rgb(43, 255, 6);
+    font-size: x-large;
+}
+.login-btn:hover{
+    background-color: darkgreen;
+}
+.sign-btn:hover{
+    background-color:rgb(0, 81, 255);
+}
+a:link{
+    color: indigo;
+}
+a:hover{
+    color:rgb(188, 160, 0)
+}a{
+    font-size: large;
+}
+a:active{
+    font-size: 50px;
+}
+a:visited{
+    font-family: cursive;
+}
+p:first-child{
+    color: brown;
+    background-color:aqua
+}
+p:i first child{
+    font-size: 30px;
+    color:deeppink;
+}
+.ab:hover{
+    color: aquamarine;
+    background-color: black;
+}

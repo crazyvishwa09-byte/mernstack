@@ -1,0 +1,108 @@
+.but{
+    width: 700px;
+    text-align: center;
+    margin-left: 400px;
+}
+.attach{
+    background-attachment: fixed;
+    background-image: url(https://preview.colorlib.com/theme/gamewarrior/img/slider-1.jpg.webp);
+    background-position: center;
+    height: 600px;
+    width: 100%;
+   background-attachment:scroll;
+}
+.head{
+    color: white;
+    margin-left: 100px;
+}
+.gam{
+    color: yellow;
+}
+.para{
+      color: white;
+    margin-left: 100px;
+}
+.learn-btn{
+    width: 95px;
+    height: 40px;
+    padding: 5px;
+    border-radius: 60px;
+    font-size: 9px;
+    margin-left: 16px;
+    background-color:rgb(245, 136, 12);
+    color: black;
+    margin-left: 100px;
+}
+.main-container1{
+    height: 60px;
+    width: 100%;
+    background-color: black;
+}
+nav ul{
+    list-style-type: none;
+    display: flex;
+    gap: 50px;
+    color: white;
+}
+.btn{
+    height: 30px;
+    border: none;
+    color: black;
+    margin-top: 5px;
+    padding: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color:rgb(245, 136, 12);
+    border-radius: 20px;
+    align-items: center;
+}
+.inner-container1{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.main1{
+    height: 50px;
+    width: 100%;
+    border:none rgb(0, 0, 0) solid;
+    display: flex;
+}
+.box1{
+    height: 50px;
+    width: 400px;
+    background-color:rgb(245, 136, 12);
+    color: white;
+    align-items: center;
+    
+}
+.box2{
+    height: 50px;
+    width: 1105px;
+    background-color:black;
+    display: flex;
+    gap: 50px;
+}
+.late{
+    margin-left: 280px;
+  justify-content: right;
+}
+.btn1{
+    background-color: red;
+    color: white;
+    margin-top: 16PX;
+    margin-bottom: 12px;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+.para1{
+    color: white;
+}
+.btn2{
+    background-color: green;
+    color: white;
+     margin-top: 16PX;
+    margin-bottom: 12px;
+}
+
+
+

@@ -1,0 +1,132 @@
+.a1{
+    display: inline;
+     color: red;
+}
+.a2{
+    display: block;
+    color: red;
+}
+.a3{
+    display: inline-block;
+     color: red;
+}
+.a4{
+    display: none;
+    color: red;
+}
+.abc{
+    height: 200Px;
+    width: 200PX;
+    border: 2px solid black;
+    background-color: blue;
+}
+.abcd{
+    height: 200Px;
+    width: 295PX;
+    border: 2px solid black;
+    background-image: url(./light-pink-background-paper-texture-tiny-petal-flower-painting-in-watercolor-style-ai-generative-photo.jpg);
+}
+.abcd1{
+    height: 191Px;
+    width: 290Px;
+    border: 5px dashed black;
+    background-image: url(./light-pink-background-paper-texture-tiny-petal-flower-painting-in-watercolor-style-ai-generative-photo.jpg);
+    background-origin: border-box;
+    background-repeat: no-repeat;
+}
+.abcd2{
+    height: 200Px;
+    width: 300PX;
+    border: 5px dashed black;
+    background-image: url(./light-pink-background-paper-texture-tiny-petal-flower-painting-in-watercolor-style-ai-generative-photo.jpg);
+    background-origin: padding-box;
+     background-repeat: no-repeat;
+}
+.abcd4{
+    height: 300px;
+    width: 300px;
+    border: 5px solid black;
+     background-image: url(./light-pink-background-paper-texture-tiny-petal-flower-painting-in-watercolor-style-ai-generative-photo.jpg);
+     background-position: center;
+     background-attachment: fixed;
+     
+}
+.abcd4{
+    height: 200px;
+    width: 300px;
+    border: 5px solid black;
+     background-image: url(./light-pink-background-paper-texture-tiny-petal-flower-painting-in-watercolor-style-ai-generative-photo.jpg);
+   
+     background-attachment: fixed;
+     
+}
+.abcd5{
+    height:200px;
+    width: 300px;
+    border: 5px solid black;
+     background-image: url(./light-pink-background-paper-texture-tiny-petal-flower-painting-in-watercolor-style-ai-generative-photo.jpg);
+     background-attachment:scroll;
+}
+.abcd6{
+    height: 500Px;
+    width: 500PX;
+    border: 5px solid black;
+    background-image: url(./light-pink-background-paper-texture-tiny-petal-flower-painting-in-watercolor-style-ai-generative-photo.jpg);
+    background-repeat: no-repeat;
+}
+.abcd7{
+    height: 500Px;
+    width: 500PX;
+    border: 5px solid black;
+    background-image: url(./light-pink-background-paper-texture-tiny-petal-flower-painting-in-watercolor-style-ai-generative-photo.jpg);
+    background-repeat:repeat-x;
+}
+.abcd8{
+    height: 500Px;
+    width: 500PX;
+    border: 5px solid black;
+    background-image: url(./light-pink-background-paper-texture-tiny-petal-flower-painting-in-watercolor-style-ai-generative-photo.jpg);
+    background-repeat:repeat-y;
+}
+.abcd9{
+    height: 500Px;
+    width: 500PX;
+    border: 5px solid black;
+    background-image: url(./light-pink-background-paper-texture-tiny-petal-flower-painting-in-watercolor-style-ai-generative-photo.jpg);
+    background-position: center;
+}
+.abcd10{
+    height: 500Px;
+    width: 500PX;
+    border: 5px solid black;
+    background-image: url(./light-pink-background-paper-texture-tiny-petal-flower-painting-in-watercolor-style-ai-generative-photo.jpg);
+    background-position:left;
+}
+.abcd11{
+    height: 500Px;
+    width: 500PX;
+    border: 5px solid black;
+    background-image: url(./light-pink-background-paper-texture-tiny-petal-flower-painting-in-watercolor-style-ai-generative-photo.jpg);
+    background-position:right;
+}
+.abcd12{
+    height: 360Px;
+    width: 637Px;
+    border: 2px solid black;
+    background-image: url(./download.jpg),url(./light-pink-background-paper-texture-tiny-petal-flower-painting-in-watercolor-style-ai-generative-photo.jpg);
+    background-blend-mode:lighten;
+}
+.abcd13{
+    height: 360Px;
+    width: 637Px;
+    border: 2px solid black;
+    background-image: url(./download.jpg),url(./light-pink-background-paper-texture-tiny-petal-flower-painting-in-watercolor-style-ai-generative-photo.jpg);
+    background-blend-mode:darken;
+}
+.abcd14{
+    height: 360Px;
+    width: 637Px;
+    border: 2px solid black;
+    background-image: url(./download.jpg),url(./light-pink-background-paper-texture-tiny-petal-flower-painting-in-watercolor-style-ai-generative-photo.jpg);
+    background-blend-mode:multiply;
+}

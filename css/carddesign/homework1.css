@@ -1,0 +1,57 @@
+.main-con{
+    background-color:#e0e0e0;
+}
+.box{
+    height: 60px;
+    width: 760px;
+    display: flex;
+    gap: 10px;
+    margin: auto;
+}
+.img5{
+    margin-top: 50px;
+}
+.head8{
+    margin-top: 58px;
+}
+.box1{
+    height: 864px;
+    width: 760px;
+    margin: auto;
+    background-color: white;
+}
+.img1{
+    height: 400px;
+    width: 760px;
+}
+.head{
+    padding-left: 20px;
+}
+.para{
+    padding-left: 20px;
+}
+.btn{
+    color: white;
+    background-color: #00674b;
+    border: none;
+    border-radius:3px;
+    margin-left: 20px;
+    text-align: center;
+    height: 50px;
+    width: 130px;
+}
+.box2{
+    margin-top: 20px;
+    text-align: center;
+}
+.para1{
+    text-decoration: underline;
+    text-align: center;
+}
+.para2{
+    text-decoration:underline;
+    text-align: center;
+}
+.para3{
+    text-align: center;
+}

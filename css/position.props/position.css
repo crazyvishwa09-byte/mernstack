@@ -1,0 +1,32 @@
+.main-con{
+    height: 300px;
+    width: 500px;
+    border: 2px solid black;
+    
+}
+.inner2-con{
+    height: 1450px;
+    width: 500px;
+    position: relative;
+    top: 100px;
+}
+.inner2-con{
+    height: 145px;
+    width: 500px;
+    color: beige;
+    /* background-color: black; */
+    position: absolute;
+    top: 100px;
+}
+nav{
+    background-color: black;
+    position: sticky;
+    top: 0px;
+}
+nav ul{
+    list-style-type:none;
+    color: white;
+    display: flex;
+    padding: 50px;
+    gap: 50px;
+}

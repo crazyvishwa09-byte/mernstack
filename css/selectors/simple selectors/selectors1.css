@@ -1,0 +1,24 @@
+.para1{
+    color:blue
+}
+.para2{
+    color:brown
+}
+#paras1{
+    color: blue;
+}
+#paras2{
+    color: brown;
+}
+.universal{
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+}
+.group1,.group2{
+    color:red;
+    font-size: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+h6{
+    color: aqua;
+    font-size: 20px;
+}

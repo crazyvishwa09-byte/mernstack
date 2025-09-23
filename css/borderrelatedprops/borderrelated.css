@@ -1,0 +1,16 @@
+.main-container{
+    height: 200px;
+    width: 200px;
+    border: 4px double red;
+    border-radius: 30px;
+    margin-left: 20px;
+    margin-top: 80px;
+    padding: 20px;
+}
+.profile-container{
+     height: 150px;
+     width: 150x;
+     border-radius: 80px;
+     margin-left: 40px;
+     margin-top: 30px;
+}
