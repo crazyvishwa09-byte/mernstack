@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+     <script>
+        // local, session, cookies
+
+
+        // local
+        var userName = "Demo name"
+
+        localStorage.setItem("name",userName)
+        localStorage.setItem("isLogin",true)
+
+        var userData = localStorage.getItem("isLogin")
+        console.log(userData,"getItem");
+
+        localStorage.removeItem("name")
+
+        localStorage.clear()
+
+
+
+        // session storage
+
+        sessionStorage.setItem("mobile",975394573)
+        const mobileNumber = sessionStorage.getItem("mobile")
+        console.log(mobileNumber,"session getItem");
+
+        sessionStorage.removeItem("mobile")
+        sessionStorage.clear()
+
+        var studentData = {
+            "name":"aaa",
+            "email":"aaa@gmail.com",
+            "mobile":945874395,
+            "isPass": false
+        }
+        console.log(studentData,"studentData");
+        
+        
+        localStorage.setItem("SData",JSON.stringify(studentData))
+
+        var record = localStorage.getItem("SData")
+        const parsedData = JSON.parse(record)
+        console.log(record,"record");
+        console.log(parsedData,"parsedData");
+        
+        
+    </script>
+</body>
+</html>

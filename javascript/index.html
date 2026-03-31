@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.js">
+</head>
+
+<body>
+<h1>Output Elements</h1>
+    <h2>Document.write</h2>
+    <p id="demo"></p>
+    <p id="para"></p>
+    
+    <script>
+        document.getElementById("demo").innerHTML="This is all we need...."
+        document.write("This is all we need....")
+       document.write(1+3)
+
+       console.log("Working")
+       console.log(1+1)
+
+       window.alert("This is you.....")
+       alert("This is me....")
+    </script>
+
+
+
+     
+    <script>
+         // variable
+
+        var userName = "demo name"
+        console.log(userName);
+        
+
+        // var mobile number = 9847543985
+
+        var age = 10
+        console.log(age)   // 10
+        console.log(age)  // case-sensitive
+
+        var data = "aaaa"
+        console.log(data)
+
+        var address;
+        address = "no:2, aaa street"
+
+        var a,b
+        a = 10; b = 20
+        console.log(a,b);
+
+
+        // string
+
+        var address = "no:4,aaa street"
+        console.log(typeof address);
+        var employeeId = "EMP001"
+         console.log(typeof employeeId);
+         let mobile = 83572385354
+         console.log(typeof mobile);
+
+         let isPaid = false
+         console.log(typeof isPaid);
+
+         let data = null
+         console.log(typeof data);   // object
+
+        //  var m;
+        //  console.log(m);
+         
+
+        // object
+
+        var myObj = {
+            name:"aaa",
+            regNo: "ST001",
+            rank: 4,
+            department: "CSE"
+        }
+        console.log(typeof myObj);
+
+        var numbers = [10,20,30,40]
+        console.log(typeof numbers);
+        console.log(numbers);
+    </script>
+
+</body >
+</html>

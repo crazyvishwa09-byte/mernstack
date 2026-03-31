@@ -1,0 +1,24 @@
+.inner1{
+    display: flex;
+    justify-content: space-around;
+}
+.sec2{
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+.sec3{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+.imgs{
+    height: 30px;
+    width: 30px;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 18px;
+}
+

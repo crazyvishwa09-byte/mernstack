@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+
+
+    <script>
+// promise
+
+const vishwa = true
+const character = new Promise(function(res, rej){
+    if (vishwa){
+        res("Nice")
+    }else{
+        rej("Bad")
+    }
+})
+
+console.log(character);
+
+character
+.then((msgg)=>{
+    console.log(msgg,"Person");
+})
+.catch((msg)=>{
+    console.log(msg,"Person");
+})
+
+
+// async function
+
+
+</script>
+    
+
+
+
+</body>
+</html>

@@ -1,0 +1,127 @@
+nav ul {
+  list-style-type: none;
+}
+
+nav li {
+  color: aqua;
+  font-size: 50px;
+  display: inline-block;
+  padding: 50px;
+}
+
+.main-con {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.main-con .box1, .main-con .box2, .main-con .box3, .main-con .box4 {
+  height: 110px;
+  width: 100px;
+  border: 1px solid black;
+  font-size: 100px;
+  text-align: center;
+  background-color: aqua;
+}
+
+.main-con .box2 {
+  background-color: blueviolet;
+}
+
+.main-con .box3 {
+  background-color: #2be24c;
+}
+
+.main-con .box4 {
+  background-color: #e22bab;
+}
+
+.para1 {
+  font-size: 30px;
+  color: brown;
+  background-color: black;
+}
+
+.para2 {
+  font-size: 30px;
+  color: brown;
+  background-color: black;
+  color: aqua;
+}
+
+.para3 {
+  font-size: 30px;
+  color: brown;
+  background-color: black;
+  color: chartreuse;
+}
+
+.head11 {
+  text-align: center;
+}
+
+.main-con11 {
+  height: 500px;
+  margin-left: 100px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 30px;
+}
+
+.main-con11 .box11, .main-con11 .box12, .main-con11 .box13 {
+  height: 300px;
+  width: 400px;
+  border: 1px solid black;
+  background-image: url(https://preview.colorlib.com/theme/gardening/assets/img/gallery/project1.jpg);
+  padding: 5px;
+  margin-top: 60px;
+}
+
+.main-con11 .box11 .head12, .main-con11 .box12 .head12, .main-con11 .box13 .head12, .main-con11 .box11 .box11, .main-con11 .box12 .box11, .main-con11 .box13 .box11, .main-con11 .box11 .box12, .main-con11 .box12 .box12, .main-con11 .box13 .box12, .main-con11 .box11 .box13, .main-con11 .box12 .box13, .main-con11 .box13 .box13 {
+  display: none;
+}
+
+.main-con11 .box11 .para11, .main-con11 .box12 .para11, .main-con11 .box13 .para11, .main-con11 .box11 .box11, .main-con11 .box12 .box11, .main-con11 .box13 .box11, .main-con11 .box11 .box12, .main-con11 .box12 .box12, .main-con11 .box13 .box12, .main-con11 .box11 .box13, .main-con11 .box12 .box13, .main-con11 .box13 .box13 {
+  display: none;
+}
+
+.main-con11 .box11 .btn, .main-con11 .box12 .btn, .main-con11 .box13 .btn {
+  display: none;
+}
+
+.main-con11 :hover .head12, .main-con11 :hover .box11, .main-con11 :hover .box12, .main-con11 :hover .box13 {
+  text-align: center;
+  color: white;
+  margin-top: 60px;
+  display: block;
+}
+
+.main-con11 :hover .para11, .main-con11 :hover .box11, .main-con11 :hover .box12, .main-con11 :hover .box13 {
+  text-align: center;
+  color: white;
+  font-size: 20px;
+  display: block;
+}
+
+.main-con11 :hover .btn {
+  height: 40px;
+  width: 120px;
+  color: white;
+  font-size: 25px;
+  border: 1.5px solid white;
+  border-radius: 30px;
+  text-align: center;
+  padding-top: 10px;
+  margin-left: 130px;
+  display: block;
+}
+
+.main-con11 .box12 {
+  background-image: url(https://preview.colorlib.com/theme/gardening/assets/img/gallery/project2.jpg);
+}
+
+.main-con11 .box13 {
+  background-image: url(https://preview.colorlib.com/theme/gardening/assets/img/gallery/project3.jpg);
+}
+/*# sourceMappingURL=index.css.map */

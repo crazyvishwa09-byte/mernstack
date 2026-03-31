@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        // 1.Print all elements of an array using a loop.
+
+        // var num=[12,21,221,2221]
+        // for(let i=0;i<=num.length;i++ ){
+        //     console.log(num[i]);
+        // }
+
+        // 2.Print only even numbers from an array.
+
+        // var num=[2,3,4,5,6,7,8,9,10]
+        // for(let i=0;i<=num.length;i++){
+        //     if(num[i]%2==0){
+        //         console.log(num[i]);
+        //     }
+        // }
+
+        // 3.Print only odd numbers from an array.
+
+        // var num=[2,3,4,5,6,7,8,9,10]
+        // for(let i=0;i<=num.length;i++){
+        //     if(num[i]%2==1){
+
+        //         console.log(num[i]);
+        //     }
+        // }
+
+        // 4.Find the sum of all numbers in an array.
+
+        // sum=0
+        // var num=[1,2,3,4,5,6,7,8,9,10]
+        // for(let i=0;i<num.length;i++){
+        //     sum=sum+num[i]
+        //     }
+        // console.log(sum);
+
+        // 5.Find the largest number in an array using a loop.
+
+        // var num=[5,6,2,3,9,1]
+        // var a=num[0]
+        // for(let i=1;i<num.length;i++){
+        //     if(num[i]>a){
+        //         largestnum=num[i]
+        //     }
+        // }
+        // console.log(largestnum);   
+
+
+        // 6.Find the smallest number in an array using a loop.
+
+        // var num=[5,6,2,3,9,1]
+        // var a=num[0]
+        // for(let i=1;i<num.length;i++){
+        //     if(num[i]<a){
+        //         smallestnum=num[i]
+        //     }
+        // }
+        // console.log(smallestnum);
+        
+        // 7.Count how many positive numbers are in an array.
+
+        // var num = [-1,-2,0,1,2];
+        // var a = 0;
+        // for (let i = 0; i < num.length; i++){
+        //     if (num[i] >= 0){
+        //         a++;
+        //     }
+        // }
+        // console.log(a);
+
+        // 8.Count how many negative numbers are in an array.
+
+        // var num = [-1,-2,0,1,2];
+        // var a = 0;
+        // for (let i = 0; i < num.length; i++){
+        //     if (num[i] < 0){
+        //         a++
+        //     }
+        // }
+        // console.log(a);
+
+        // 9.Reverse an array without using the .reverse() method.
+
+        // var num=[9,8,7,6,5,4,3,2,1]
+        // var newarr=[]
+        // for(let i=num.length-1;i>=0;i--){
+        //  newarr.push(num[i])
+        // }
+        // console.log(newarr);
+
+        // 10.Count how many even and odd numbers are present in an array.
+
+        // var num=[1,2,3,4,5,6]
+        // var a=0;
+        // var b=0;
+        // for(let i=0;i<num.length;i++){
+        //     if(num[i]%2==0){
+        //         a++
+        //     }else{
+        //         b++
+        //     }
+        // }
+        // console.log("EVENNUM",a);
+        // console.log("ODDNUM",b);
+
+        // 11.Find and print the index of a specific value in an array.
+
+        // var num=[1,2,3,4,5,6]
+        // var value=4;
+        // for(let i=0;i<num.length;i++){
+        //     if(num[i]==value){
+        //        console.log(i) 
+        //     }
+        // }
+
+        // 12.Replace all negative numbers in an array with 0.
+
+        // var num=[-1,1,-2,2,-3,3,-4,4,-5,5]
+        // var value=0
+        // for(let i=0;i<num.length;i++){
+        //     if(num[i]<0){
+        //         num[i]=value
+        //         console.log(num[i])
+        //     }else{
+        //         console.log(num[i]);
+                
+        //     }
+        // }
+
+        // 13. Print all numbers greater than 50 from an array.
+
+        // var num=[10,20,30,40,50,60,70,80,90,100]
+        // var value=50
+        // for(let i=0;i<num.length;i++){
+        //     if(num[i]>50){
+        //         console.log(num[i]);    
+        //     }
+        // }
+
+        // 14.Create a new array containing squares of each element.
+
+        // var num=[1,2,3,4,5]
+        // var squarenums=[]
+        // for(let i=0;i<num.length;i++){
+        //     squarenums.push(num[i]*num[i])
+        // }
+        // console.log(squarenums)
+
+        // 15. Print duplicate values from an array.
+
+        // var num=[1,2,3,4,1,5]
+        // for(let i=0;i<num.length;i++){
+        //     // for(let j=1;j<num.length;j++){ 
+        //     for(let j=i+1;j<num.length;j++){  
+        //         if(num[i]==num[j]){
+        //               console.log(num[j])
+        //         }   
+        //     }
+        // }
+
+        // 16.Print array elements until the number 50 appears 
+
+        // var num=[10,20,30,40,50,60,70,80,90,100]
+        // var value=50
+        // for(let i=0;i<num.length;i++){
+        //     if(num[i]<=50){
+        //         console.log(num[i]);    
+        //     }
+        // }
+
+        // 17.Count how many numbers are divisible by 5 in an array.
+
+        // var num=[1,3,5,7,10]
+        // for(let i=0;i<num.length;i++){
+        //     if(num[i]%5==0){
+        //         console.log(num[i]);
+        //     }
+        // }
+
+        // 18.Find the second largest number in an array using loops.
+
+        // var num=[1,2,3,7,8,9]
+        // for(let i=0;i<num.length;i++){
+        //     for(let j=i+1;j<num.length;j++){
+        //     if(num[i]<num[j]){
+        //     }
+        //     console.log(num[i]);
+        //     }
+        // }
+
+        // 19.Check whether an array is sorted in ascending order.
+
+        // var num = [1,3,4,5];
+        // var asorder = true;
+        //     for (let i=0;i<num.length;i++){
+        //         if (num[i]>num[i+1]){
+        //             asorder=false;
+        //             break;
+        //         }
+        //     }
+        //     console.log(asorder);
+
+        // 20.Find the sum of only the even numbers in an array.
+
+        // sum=0
+        // var num=[1,2,3,4,5,6,7,8,9,10]
+        // for(let i=0;i<num.length;i++){
+        //     if(num[i]%2==0)
+        //     sum=sum+num[i]
+        //     }
+        // console.log(sum);
+
+
+
+        
+
+
+           
+
+
+
+
+
+
+    </script>
+</body>
+</html>

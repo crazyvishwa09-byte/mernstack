@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        var studentsdata = [
+            {studentname: "vishwa",
+             regno: "23td0098",
+             marks:[90,100,90,80,100],
+            },
+            {studentname: "sarukesh",
+             regno: "23td0075",
+             marks:[10,10,10,10,10],
+            }
+        ]
+
+    for (let i=0;i<studentsdata.length;i++) {
+        let sum=0;
+        for (let j=0;j<studentsdata[i].marks.length;j++) {
+            sum=sum+studentsdata[i].marks[j];
+        }
+        studentsdata[i].total = sum;
+        if(sum>450 && sum<=500){
+            studentsdata[i].grade = "S" 
+            studentsdata[i].performance = "EXCELLENT "  
+            studentsdata[i].result = "PASS"
+        }else if(sum>400 && sum<=500){
+            studentsdata[i].grade = " A+"
+            studentsdata[i].performance = "GOOD "  
+            studentsdata[i].result = "PASS"
+        }else if(sum>350 && sum<=500){
+            studentsdata[i].grade = " A"
+            studentsdata[i].performance = "GOOD " 
+            studentsdata[i].result = "PASS" 
+        }else if(sum>300 && sum<=500){
+            studentsdata[i].grade = "B+"
+            studentsdata[i].performance = "GOOD " 
+            studentsdata[i].result = "PASS" 
+        }else if(sum>250 && sum<=500){
+            studentsdata[i].grade = "B"
+            studentsdata[i].performance = "GOOD " 
+            studentsdata[i].result = "PASS" 
+        }else{
+            studentsdata[i].grade = "F" 
+            studentsdata[i].performance = "VERYBAD" 
+            studentsdata[i].result = "FAIL" 
+        }
+        }
+        
+    console.log(studentsdata);
+
+        
+        
+
+    </script>
+</body>
+</html>

@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        // 1.check odd or even
+        
+        let a = Number(prompt("Enter the a value:"))
+        switch(a % 2 == 0){
+            case true:
+                console.log("a is even");
+                break;
+            case false:
+                console.log("a is odd")
+        }
+        // // 2.chech wheather the number is positive or negative or zero
+
+        let b = Number(prompt("Enter the b value:"))
+        switch(true){
+            case (b>0):
+                console.log("b is positive");
+                break;
+            case(b<0):
+                console.log("b is negative");
+                break;
+            case(b===0):
+                console.log("b is zero");
+                break;
+        }
+        // 3.find the largest of three numbers
+
+        let c = Number(prompt("Enter the c value:"))
+        let d = Number(prompt("Enter the d value:"))
+        let e = Number(prompt("Enter the e value:"))
+        switch(true){
+            case(c>d && c>e):
+               console.log("c is greater");
+               break;
+            case(d>c && d>e):
+               console.log("d is greater");
+               break;
+            case(e>c && e>d):
+               console.log("e is greater");
+               break;
+        }
+        // 4.check if a number is a multiple of 7
+
+        let f = Number(prompt("Enter the f value:"))
+        switch(f % 7 == 0){
+            case true:
+                console.log("it is multiple");
+                break;
+            case false:
+                console.log("it is not multiple");
+                break;
+        }
+        // 5.check if a number is in the range of 50-150
+
+        let g = Number(prompt("Enter the g value:"))
+        switch(g>50 && g<150){
+            case true:
+                console.log("g is between 50 to 150");
+                break;
+            case false:
+                console.log("g is not between the 50 to 150");
+                break;
+        }
+    </script>
+</body>
+</html>

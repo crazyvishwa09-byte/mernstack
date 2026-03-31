@@ -1,0 +1,118 @@
+nav{
+    ul{
+        list-style-type: none;
+    }
+    li{
+        color: aqua;
+        font-size: 50px;
+        display: inline-block;
+        padding: 50px;
+    }
+}
+.main-con{
+    display: flex;
+.box1{
+    height: 110px;
+    width: 100px;
+    border: 1px solid black;
+    font-size: 100px;
+    text-align: center;
+    background-color: aqua
+}
+.box2{
+    @extend .box1;
+    background-color: blueviolet;
+}
+.box3{
+    @extend .box1;
+    background-color: rgb(43, 226, 76);
+}
+.box4{
+    @extend .box1;
+    background-color: rgb(226, 43, 171);
+}
+}
+
+@mixin mypara{
+    font-size: 30px;
+    color: brown;
+    background-color: black;
+}
+.para1{
+    @include mypara;
+}
+.para2{
+    @include mypara;
+    color: aqua;
+}
+.para3{
+    @include mypara;
+    color: chartreuse;
+}
+
+.head11{
+    text-align: center;
+}
+
+
+.main-con11{
+    height: 500px;
+    margin-left: 100px;
+    display: flex;
+    gap: 30px;
+.box11{
+    height: 300px;
+    width: 400px;
+    border: 1px solid black;
+    background-image:url(https://preview.colorlib.com/theme/gardening/assets/img/gallery/project1.jpg);
+    padding: 5px;
+    margin-top: 60px;
+    @extend .head12;
+    @extend .para11;
+
+.head12{
+    display: none;
+}
+.para11{
+     display: none;
+}
+.btn{
+    display: none;
+}
+}
+
+:hover{
+    .head12{
+    text-align: center;
+    color: white;
+    margin-top: 60px;
+    display: block;
+}
+.para11{
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    display: block;
+}
+.btn{
+    height: 40px;
+    width: 120px;
+    color: white;
+    font-size: 25px;
+    border: 1.5px solid white;
+    border-radius: 30px;
+    text-align: center;
+    padding-top: 10px;
+    margin-left: 130px;
+    display: block;
+}
+}
+.box12{
+    @extend .box11;
+    background-image:url(https://preview.colorlib.com/theme/gardening/assets/img/gallery/project2.jpg);
+}
+.box13{
+    @extend .box11;
+    background-image: url(https://preview.colorlib.com/theme/gardening/assets/img/gallery/project3.jpg);
+}
+}

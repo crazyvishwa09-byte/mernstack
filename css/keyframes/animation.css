@@ -1,0 +1,91 @@
+
+.box1{
+    height: 100px;
+    width: 100px;
+    background-color: blue;
+    font-size: 100px;
+    text-align: center;
+    animation: mybox1 4s linear alternate;
+}
+.box2{
+    height: 100px;
+    width: 100px;
+    background-color: blue;
+    font-size: 100px;
+    text-align: center;
+    position: relative;
+    animation: mybox2 4s linear alternate ;
+}
+.box3{
+    height: 100px;
+    width: 100px;
+    background-color: blue;
+    font-size: 100px;
+    text-align: center;
+    position: relative;
+    animation: mybox3 4s linear alternate ;
+}
+.box4{
+    height: 100px;
+    width: 100px;
+    background-color: blue;
+    font-size: 100px;
+    text-align: center;
+    position: relative;
+    animation: mybox4 4s linear alternate ;
+}
+.box5{
+    height: 100px;
+    width: 100px;
+    background-color: blue;
+    font-size: 100px;
+    text-align: center;
+    position: relative;
+    animation: mybox5 4s linear alternate;
+}
+.box6{
+    height: 100px;
+    width: 100px;
+    position: relative;
+    animation: mybox6 4s linear alternate;
+}
+@keyframes mybox1{
+    0%{
+       left:0px;
+       background-color: aqua;
+    }
+}
+@keyframes mybox2{
+    15%{
+        left: 100px;
+        top: 0px;
+        background-color: yellow;
+    }
+}
+@keyframes mybox3{
+    30%{
+        left: 200px;
+        top: 0px;
+        background-color: blueviolet;
+    }
+}
+@keyframes mybox4{
+    45%{
+        left: 300px;
+        top: 0px;
+        background-color: brown;
+    }
+}
+@keyframes mybox5{
+    60%{
+        left:400px;
+        top: 0px;
+        background-color: green;
+    }
+}
+@keyframes mybox6{
+    75%{
+        left: 500px;
+        top: 0px;
+    }
+}

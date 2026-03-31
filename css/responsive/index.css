@@ -1,0 +1,389 @@
+.main-c1{
+    height: 40px;
+    width: 100%;
+    display: flex;
+    gap: 30px;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+.inner-c2{
+    display:flex;
+    gap: 50px;
+}
+.lt{
+    font-size: 20px;
+}
+.lt1{
+    font-size: 20px;
+    height: 40px;
+    width: 180px;
+    border-radius: 40px;
+    padding-top: 15px;
+    margin-top:1px;
+    background-color:green ;
+    color: white;
+    text-align: center;
+}
+.fa-search{
+    height: 30px;
+    width: 50px;
+    padding-top: 15px;
+    border-radius: 40px;
+      margin-top:5px;
+    background-color: rgb(207, 212, 207);
+    color: rgb(15, 202, 43);
+    text-align: center;
+}
+.inner-c3{
+    height:700px;
+    width: 100%;
+    background-image: url(./h1_hero1.jpg.webp);
+}
+.para{
+    font-size: 60px;
+    color: white;
+    padding-top: 240px;
+    padding-left: 300px;
+}
+.para1{
+    font-size: 25px;
+    color: white;
+    padding-left: 280px;
+}
+.btn{
+    height: 55px;
+    width: 220px;
+    font-size: 18px;
+    color: green;
+    border: none;
+    border-radius: 40px;
+    margin-left: 620px;
+}
+.para2{
+    font-size: 100px;
+    color: rgb(245, 242, 242);
+    margin-left: 700px;
+}
+.main-c3{
+    height: 300px;
+    /* width: 100%; */
+    padding-top: 80px;
+    padding-left: 200px;
+    background-color: gainsboro;
+}
+.box{
+    height: 170px;
+    width: 170px;
+    border: none;
+    background-color: gainsboro;
+    justify-content:space-around;
+}
+.img1{
+    padding-left: 50px;
+    padding-top: 30px;
+}
+.head11{
+    color: rgb(29, 94, 24);
+}
+:hover.box{
+    background-color:white;
+    .head11{
+         text-decoration: underline;
+     }
+}
+.head1{
+    padding-left: 15px;
+}
+.head2{
+    padding-left: 40px;
+}
+.head3{
+   padding-left: 40px;
+}
+.head4{
+    padding-left: 55px;
+}
+.head5{
+    padding-left: 30px;
+}
+.head6{
+    padding-left: 10px;
+}
+.inner-c4{
+    display: flex;
+    gap: 20px;
+}
+.para3{
+    font-size: 25px;
+    color: rgb(29, 94, 24);
+    margin-left: 250px;
+    margin-top: 60px;
+}
+.main-c4{
+    height: 928px;
+    width: 100%;
+    background-color: rgb(29, 72, 29);
+}
+.inner-c5{
+    display: flex;
+    gap: 30px;
+    padding-left: 200px;
+    padding-top: 60px;
+}
+.box12{
+    height: 870px;
+    width: 630px;
+}
+.head7{
+    font-size: 50px;
+    color: white;
+}
+.head8{
+    color: white;
+}
+.para4{
+    font-size: 20px;
+    color: white;
+}
+.inner-c6{
+    padding-top: 20px;
+}
+.btn1{
+    height: 60px;
+    width: 220px;
+    font-size: 20px;
+    border-radius: 30px;
+    border: none;
+    color: white;
+    background-color: green;
+}
+.inner-c7{
+    padding-top: 30px;
+}
+.inner-c8{
+    padding-top: 73px;
+}
+.main-c5{
+    height: 275px;
+    width: 100%;
+    color: gainsboro;
+}
+.inner-c9{
+    display: flex;
+}
+.box13{
+    height: 250px;
+    width: 500px;
+    border: 0.1px solid rgb(135, 139, 136);
+    color: rgb(35, 107, 60);
+    background-color:whitesmoke;
+    padding-left: 30px;
+    padding-top: 50px;
+    font-size: 20px;
+}
+:hover.box13{
+    background-color: white;
+}
+.main-c6{
+    height: 600px;
+    width: 100%;
+}
+.inner-c10{
+    display: flex;
+    gap: 20px;
+    padding-left: 50px;
+    padding-top: 30px;
+}
+.head9{
+    font-size: 50px;
+    padding-top: 100px;
+    padding-left: 580px;
+    color: rgb(27, 73, 27);
+}
+.box14{
+    height: 300px;
+    width: 450px;
+    border: 1px solid black;
+}
+.back1{
+    background-image: url(	https://preview.colorlib.com/theme/gardening/assets/img/gallery/project1.jpg);
+}
+.back2{
+    background-image:url(	https://preview.colorlib.com/theme/gardening/assets/img/gallery/project2.jpg);
+}
+.back3{
+    background-image: url(https://preview.colorlib.com/theme/gardening/assets/img/gallery/project3.jpg);
+}
+.head10{
+    display: none;
+}
+.para5{
+     display: none;
+}
+.btn2{
+    display: none;
+}
+:hover.box14{
+.head10 {
+    color: white;
+    padding-left: 120px;
+    padding-top: 20px;
+    display: block;
+}
+.para5{
+    color: white;
+    font-size: 25px;
+    padding-left: 20px;
+   text-align: center;
+   display: block;
+}
+.btn2{
+    height: 40px;
+    width: 110px;
+    border-radius: 30px;
+    border: 1px solid white;
+    font-size: 20px;
+    color: white;
+    text-align: center;
+    padding-top: 15px;
+    margin-left: 160px;
+    display: block;
+}
+}
+:hover.btn2{
+    color: rgb(72, 171, 39);
+    background-color: white;
+}
+
+.main-c7{
+  height: 610px;
+  width: 100%;
+}
+.inner-c11{
+    display: flex;
+}
+.box15{
+  height: 608px;
+  width: 550px;
+  border:none;
+}
+.back11{
+    background-image: url(https://preview.colorlib.com/theme/gardening/assets/img/gallery/visit_bg.jpg);
+}
+.back12{
+    background-color: gainsboro;
+}
+.img2{
+    padding-top: 50px;
+    padding-left: 35px;
+}
+.head12{
+    padding-left: 80px;
+    margin-top: -30px;
+    color: rgb(52, 92, 52);
+    font-size: 40px;
+}
+.para6{
+    font-size: 21px;
+   color: rgb(82, 125, 82);
+    padding-top: 40px;
+    padding-left: 30px;
+}
+.img3{
+    margin-top: 15px;
+    margin-left: 50px;
+}
+.main-c8{
+    display: flex;
+    gap: 15px;
+    text-align: center;
+    margin-top: 70px;
+}
+.head13{
+    color: rgb(52, 92, 52);
+}
+.para7{
+    color: rgb(82, 125, 82);
+}
+.box16{
+    font-size: 20px;
+    color: white;
+    text-align: center;
+    background-color: rgb(82, 125, 82);
+    padding: 3px;
+    margin-top: 36px;
+}
+.head14{
+     color: rgb(52, 92, 52);
+     margin-left: 40px;
+     margin-top: 60px;
+     font-size: 40px;
+}
+.text1{
+    width: 360px;;
+    padding: 20px;
+    margin-left: 40px;
+    border-radius: 30px;
+    color: rgb(52, 92, 52);
+}
+.select1{
+    width: 400px;;
+    padding: 20px;
+    margin-left: 40px;
+    border-radius: 30px;
+    color: rgb(52, 92, 52);
+}
+.textt1{
+    height: 32px;
+    width: 360px;;
+    padding: 20px;
+    margin-left: 40px;
+    border-radius: 30px;
+    color: rgb(52, 92, 52);
+}
+.box17{
+    font-size: 20px;
+    color: white;
+    text-align: center;
+    background-color: rgb(14, 121, 14);
+    padding: 3px;
+    margin-top: 99px;
+}
+.main-c9{
+    height: 480px;
+    width: 100%;
+    background-image: url(https://preview.colorlib.com/theme/gardening/assets/img/gallery/footer-bg.jpg);
+}
+.icons{
+    display: flex;
+    gap: 30px;
+}
+.inner-c12{
+    height:200px;
+    width: 300px;
+   margin-top: 100px;
+   margin-left: 80px;
+   padding-left: 50px;
+}
+.combine{
+    display:flex;
+    gap: 250px;
+}
+.combine1{
+    display: flex;
+    gap: 100px;
+    margin-top: 70px;
+}
+.paras1{
+    color:rgb(65, 108, 65) ;
+    font-size: 20px;
+}
+.heads{
+    color:rgb(16, 84, 16);
+    font-size: 20px;
+}
+.paras2{
+    color:rgb(65, 108, 65) ;
+    font-size: 18px;
+    margin-left: 100px;
+}
